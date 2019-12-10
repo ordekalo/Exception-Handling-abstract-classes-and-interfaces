@@ -1,0 +1,36 @@
+Please enter color and then radius for the first circle:
+red
+8.8
+Only integer is allowed here..
+Please enter color and then radius for the first circle:
+purple
+50
+purple is invalid color!
+Please enter color and then radius for the first circle:
+red
+801
+801.0 is illegal radius
+Please enter color and then radius for the first circle:
+red
+-1
+-1.0 is illegal radius
+Please enter color and then radius for the first circle:
+red
+7
+Original array and areas:
+==========================
+Circle, red, 7, area = 153.93804002589985
+Triangle, red, 10, 20, area = 100.0
+Rect, blue, 3, 5, area = 15.0
+Circle, yellow, 100, area = 31415.926535897932
+Triangle, red, 1, 2, area = 1.0
+Rect, white, 6, 2, area = 12.0
+
+after sorting:
+==========================
+Triangle, red, 1, 2, area = 1.0
+Rect, white, 6, 2, area = 12.0
+Rect, blue, 3, 5, area = 15.0
+Triangle, red, 10, 20, area = 100.0
+Circle, red, 7, area = 153.93804002589985
+Circle, yellow, 100, area = 31415.926535897932
