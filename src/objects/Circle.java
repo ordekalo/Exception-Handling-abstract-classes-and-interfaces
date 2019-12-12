@@ -23,7 +23,7 @@ public class Circle extends Shape implements Radius {
 
     @Override
     public void radiusCheck() throws InvalidRadiusException {
-        if (radius > 800 || radius < 0) {
+        if (MAX > 800 || MIN < 0) {
             throw new InvalidRadiusException(radius);
         }
     }
